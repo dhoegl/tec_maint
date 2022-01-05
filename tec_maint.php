@@ -50,8 +50,8 @@ session_start();
             <div class="heavy-rain-gradient">
                 <div class="row mt-5 pt-5 mx-auto">
                     <div class="card mx-auto mt-3 pt-5" style="width: 100%">
-                        <div class="card mx-auto" style="width: 15rem;">
-                            <img src="/images/ourfamilyconnections4.png" class="card-img-top max-width: 75%" alt="..." />
+                        <div class="card mx-auto" style="width: 60rem;">
+                            <img src="/images/ourfamilyconnections4.png" class="card-img-top" alt="..." />
                             <!-- <img src="..." class="card-img-top" alt="..."> -->
                         </div>
                         <div class="card-body text-center">

@@ -36,10 +36,6 @@ session_start();
         <!-- Navbar -->
 <!-- <nav class="navbar navbar-expand-lg fixed-top navbar-dark primary-color"> -->
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark orange darken-4">
-    <a class="navbar-brand" href="tec_welcome.php">
-        <img id="nav_logo" width="30" height="30" class="d-inline-block align-top" alt="Logo" />
-        <span id="navbar_brand"></span>
-    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -55,16 +51,16 @@ session_start();
                 <div class="row mt-5 pt-5 mx-auto">
                     <div class="card mx-auto mt-3 pt-5" style="width: 100%">
                         <div class="card mx-auto" style="width: 15rem;">
-                            <img src="_tenant/images/TEC App Icon 08.png" class="card-img-top max-width: 100%" alt="..." />
+                            <img src="/images/ourfamilyconnections4.png" class="card-img-top max-width: 30%" alt="..." />
                             <!-- <img src="..." class="card-img-top" alt="..."> -->
                         </div>
                         <div class="card-body text-center">
                             <div class="text-center">
                                 <h3 class="white-text">
-                                    <i class="white-text"></i> TEC Family Connections
+                                    <i class="white-text"></i>Sorry for the inconvenience while we make a few improvements
                                 </h3>
                                 <h3 class="white-text">
-                                    <i class="white-text"></i>Please sign in
+                                    <i class="white-text"></i>Please Return in a short while
                                 </h3>
                             </div><!--text-center-->
                         </div><!--card-body-->

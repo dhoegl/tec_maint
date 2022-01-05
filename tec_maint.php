@@ -60,7 +60,7 @@ session_start();
                                     <i class="white-text"></i>Sorry for the inconvenience while we make a few improvements
                                 </h3>
                                 <h3 class="white-text">
-                                    <i class="white-text"></i>Please Return in a short while
+                                    <i class="white-text"></i>We will be back online shortly
                                 </h3>
                             </div><!--text-center-->
                         </div><!--card-body-->

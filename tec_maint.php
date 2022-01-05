@@ -29,7 +29,7 @@ session_start();
 <body>
   <!--Footer-->
     <?php
-        require_once('includes/tec_footer.php');
+        require_once('includes/tec_footer_maint.php');
     ?>
 
     <header>

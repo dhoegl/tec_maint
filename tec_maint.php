@@ -13,7 +13,7 @@ session_start();
     <!--<meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <link rel='icon' href='/_tenant/images/favicon.ico' type='image/x-icon' >
-    <title>Scheduled Maintenance - TEC Family Connections</title>
+    <title>Scheduled Maintenance - OurFamilyConnections</title>
 <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 <!-- Bootstrap core CSS -->

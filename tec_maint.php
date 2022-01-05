@@ -1,11 +1,12 @@
 <?php
+// TEC Maintenance Splash Page
+// Updated 20220104
 session_start();
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--SECOND TEST TO CONFIRM SAVE TO PC AND GITHUB test server fix-->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -23,30 +24,6 @@ session_start();
     <link href="css/MDBootstrap4191/style.css" rel="stylesheet">
     <link href="css/tec_css_style.css" rel="stylesheet" />
     <link href="css/tec_welcome_style.css" rel="stylesheet" />
-
-  <style type="text/css">
-    /* Chart.js */
-        @-webkit-keyframes chartjs-render-animation {
-            from {
-                opacity: 0.99
-            }
-            to {
-                opacity: 1
-            }
-        }
-        @keyframes chartjs-render-animation {
-            from {
-                opacity: 0.99
-            }
-            to {
-                opacity: 1
-            }
-        }
-        .chartjs-render-monitor {
-            -webkit-animation: chartjs-render-animation 0.001s;
-            animation: chartjs-render-animation 0.001s;
-        }
-    </style>
 
 </head>
 <body>
@@ -69,20 +46,6 @@ session_start();
     </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <?php
-        if(!$_SESSION['logged in']) {
-            session_destroy();
-            echo '<ul class="navbar-nav mr-auto">';
-            echo '</ul>';
-            echo '<span class="nav-link">';
-            // echo '<a class="btn btn-light" href="https://trinityevangelchurch.snappages.site/" role="button">Back to App</a>';
-            echo '<a class="btn btn-light" href="http://trinityevangel.org/" role="button">Go to TEC website</a>';
-            echo '</span>';
-        }
-        else
-        {
-            $homeurl = "location:tec_home.php";
-            header($homeurl);
-        }
     ?>
   </div>
 </nav>  
@@ -104,73 +67,9 @@ session_start();
                                     <i class="white-text"></i>Please sign in
                                 </h3>
                             </div><!--text-center-->
-                            <form name="form1" method="post" class="text-center" action="tec_checklogin.php">
-                                <div class="md-form">
-                                    <i class="white-text active"></i>
-                                    <input type="text" id="form-user" name="myusername" class="white-text form-control" />
-                                    <label for="form_user" class="active">username</label>
-                                </div><!--md-form-->
-                                <div class="md-form">
-                                    <i class="white-text active"></i>
-                                    <input type="password" id="form_pass" name="mypassword" class="white-text form-control" />
-                                    <label for="form_pass" class="active">password</label>
-                                </div><!--md-form-->
-                                <div class="text-center mt-4">
-                                    <button type="submit" class="btn btn-success">Sign-in</button>
-                                </div><!--text-center-->
-                            </form>
-                            <div>
-                                <!--btn-->
-                                <span>
-                                    <a class="btn btn-primary" href="tec_register.php" role="button">Register</a>
-                                    <a class="btn btn-danger" href="tec_recover.php" role="button">Forgot Password</a>
-                                </span>
-                                <h6 class="text-center white-text">
-                                    If you have not yet registered, click on the REGISTER button above, and fill out your information on the form
-                                </h6>
-                                <h6 class="text-center white-text">
-                                    If you forgot your password, click on the FORGOT PASSWORD button above to be sent a temporary password to your email address on file
-                                </h6>
-                                <p class="fs-6 text-start white-text">
-                                    (version tec_20210405.1)
-                                </p>
-                            </div><!--btn-->
                         </div><!--card-body-->
                     </div><!--card-->
                 </div><!--Row-->
-                <div class="row mt-4">
-                    <div class="col-md-12 mb-5 mt-5 white-text">
-                        <div class="card">
-                            <div class="card-body">
-                                <!--Header-->
-                                <div class="text-center">
-                                    <h3 class="white-text">
-                                        <i class="white-text"></i> Newly designed!
-                                    </h3>
-                                </div><!--text-center-->
-                                <div class="text-left">
-                                    <p class="white-text">
-                                        <i class="white-text"></i> Welcome to a much more mobile-friendly experience...
-                                        <ul>
-                                            <li>
-                                                Now improved to work on all your mobile devices and computers
-                                            </li>
-                                            <li>
-                                                Easy-to-navigate dropdown menus (when in mobile view, tap the 3-bars at the top of the screen)
-                                            </li>
-                                            <li>
-                                                On busy pages, rotating your device will expose more information - especially on smaller (narrow) devices
-                                            </li>
-                                            <li>
-                                                Helpful tips are included throughout
-                                            </li>
-                                        </ul>
-                                    </p>
-                                </div><!--text-left-->
-                            </div><!--card-body-->
-                        </div><!--card-->
-                    </div><!--Grid column-->
-                </div><!--row-->
             </div><!--gradient-->
         </div><!--container-->
     </header>
